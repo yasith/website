@@ -1,0 +1,11 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Droid Serif', Georgia, Times, serif;
+}
+
+p, .table, .btn {
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: url(/img/satinweave.png) repeat 0 0;
+}
