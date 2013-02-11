@@ -1,0 +1,29 @@
+application: tuxv-hrd
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+# Handler for bootstrap dir
+- url: /bootstrap
+  static_dir: bootstrap
+
+# Handler for dir containing custom CSS files
+- url: /styles
+  static_dir: styles
+
+# Handler for dir containing images
+- url: /img
+  static_dir: img
+
+# Web frontend
+- url: /.*
+  script: index.app 
+
+libraries:
+  
+# For the templates
+- name: jinja2
+  version: latest
