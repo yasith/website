@@ -36,3 +36,5 @@ nosetests.xml
 
 # Google AppEngine
 google_appengine/*
+
+*.swp

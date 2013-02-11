@@ -11,6 +11,7 @@
 
   <!--Our custom CSS-->
   <link href="styles/custom.css" rel="stylesheet" media="screen">
+  <link href="styles/home.css" rel="stylesheet" media="screen">
   
 </head>
 
@@ -33,12 +34,12 @@
   </div>
 
   <!--Portrait, Name and title-->
-  <div class="row">
+  <div class="row portrait">
     <div class="span4">
       <img src="img/yasith.jpg" class="img-circle"  width="200", height="200">
     </div>
 
-    <div class="span8 page-header">
+    <div class="span8">
         <h1>Yasith Vidanaarachchi <br>
           <small>Comp Sci student at University of Toronto </small>
         </h1>
@@ -48,7 +49,7 @@
 
   <!--Contact Details and Website Profiles-->
 
-  <div class="row" >
+  <div class="row profiles" >
 
     <!--Contact Details and Location-->
     <div class="span1"> </div>
@@ -110,34 +111,40 @@
     </div>
   </div>
 
-  <h3> Things I Use and Love </h3>
+  <div class="tools">
+    <div class="well">
+      <h3> Things I Do</h3>
 
-  <table class="table">
-    <tr class="info">
-      <td><p> I code in C++, Java and Python </p> </td>
-    </tr>
+      <table class="table">
+        <tr class="info">
+          <td><p> I code in C++, Java and Python </p> </td>
+        </tr>
 
-    <tr class="success">
-      <td><p> I make Android apps and Web apps </p></td>
-    </tr>
+        <tr class="success">
+          <td><p> I make Android apps and Web apps </p></td>
+        </tr>
 
-    <tr class="warning">
-      <td><p> I use Linux </p></td>
-    </tr>
+        <tr class="warning">
+          <td><p> I use Linux </p></td>
+        </tr>
 
-    <!--<tr class="success">-->
-      <!--<td><p> I love Vim  and IntelliJ IDEA</p></td>-->
-      <!--</tr>-->
-  </table>
+        <!--<tr class="success">-->
+          <!--<td><p> I love Vim  and IntelliJ IDEA</p></td>-->
+          <!--</tr>-->
+      </table>
+    </div>
+  </div>
 
 
   <!--Footer-->
-  <small>
-    <p>
-    Icons by Glyphicons <a href="http://www.glyphicons.com/"> www.glyphicons.com </a>. 
-    Licensed under <a href="http://creativecommons.org/licenses/by/3.0/deed.en"> CC-BY license </a>
-  </p>
-  </small>
+  <footer class="footer">
+    <small>
+      <p>
+      Icons by Glyphicons <a href="http://www.glyphicons.com/"> www.glyphicons.com </a>. 
+      Licensed under <a href="http://creativecommons.org/licenses/by/3.0/deed.en"> CC-BY license </a>
+    </p>
+    </small>
+  </footer>
 
   <!-- Javascript added to the end for better performance-->
   <script src="bootstrap/js/jquery.js"> </script>
