@@ -2,46 +2,146 @@
 <html>
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
   <title>Yasith Vidanaarachchi</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  <!--Our custom CSS-->
+  <link href="styles/custom.css" rel="stylesheet" media="screen">
   
 </head>
 
 <body>
 
-  <!--My image goes here-->
+  <!--Navbar-->
 
-  <p>
-  Yasith Vidanaarachchi
-  Computer Science student at University of Toronto
+  <div class="navbar">
+
+    <div class="navbar-inner">
+      <a class="brand" href="#"> Yasith Vidanaarachchi </a>  
+      <ul class="nav">
+        <li class="active"> <a href="#">Home</a> </li>
+        <li><a href="/blog"> Blog </a> </lic>
+        <li><a href="/resume"> Resume </a> </lic>
+        <li><a href="/portfolio"> Portfolio </a> </lic>
+        <li><a href="/contact"> Contact </a> </lic>
+      </ul>
+    </div>
+  </div>
+
+  <!--Portrait, Name and title-->
+  <div class="row">
+    <div class="span4">
+      <img src="img/yasith.jpg" class="img-circle"  width="200", height="200">
+    </div>
+
+    <div class="span8 page-header">
+        <h1>Yasith Vidanaarachchi <br>
+          <small>Comp Sci student at University of Toronto </small>
+        </h1>
+    </div>
+  </div>
+
+
+  <!--Contact Details and Website Profiles-->
+
+  <div class="row" >
+
+    <!--Contact Details and Location-->
+    <div class="span1"> </div>
+    <div class="span4">
+      <p>
+
+        <!--Email-->
+        <i class="icon-envelope"></i>
+        <a href="mailto:yasith@tuxv.net">
+          yasith@tuxv.net 
+        </a> 
+      
+        <br>
+      
+        <!--Phone Number-->
+        <img src="img/glyphicons/glyphicons_phone.png" width="10" height="10"> 
+        <a href="tel://1-647-784-9030">+1 (647) 784-9030</a>
+      
+        <br>
+
+        <!--Location-->
+        <i class="icon-map-marker"> </i>
+        Toronto, Canada <br>
+
+      </p>
+    </div>
+
+    <!--Profiles on the web-->
+    <div class="span6">
+      <p>
+
+      <!--Github-->
+      <img src="img/glyphicons/glyphicons_github.png" width="15" height="15">
+      <a href="http://github.com/yasithv">github.com/yasithv</a>
+      
+      <br>
+
+      <!--LinkedIn-->
+      <img src="img/glyphicons/glyphicons_linked_in.png" width="15" height="15">
+      <a href="http://ca.linkedin.com/in/yasithv/">Yasith on LinkedIn</a>
+      
+      <br>
+
+      <!--Twitter-->
+      <img src="img/glyphicons/glyphicons_twitter.png" width="15" height="15">
+      <a href="http://twitter.com/tuxv">@tuxv on Twitter</a>
+
+      <br>
+
+      <!--Google Plus-->
+      <img src="img/glyphicons/glyphicons_google_plus.png" width="15" height="15">
+      <a href="https://plus.google.com/105484194603249916109">Yasith on Google Plus</a>
+
+      <!--Blog-->
+      <!--<img src="img/glyphicons/glyphicons_blogger.png" width="15" height="15">-->
+      <!--<a href="http://blog.tuxv.net">Blog</a>-->
+
+      </p>
+    </div>
+  </div>
+
+  <h3> Things I Use and Love </h3>
+
+  <table class="table">
+    <tr class="info">
+      <td><p> I code in C++, Java and Python </p> </td>
+    </tr>
+
+    <tr class="success">
+      <td><p> I make Android apps and Web apps </p></td>
+    </tr>
+
+    <tr class="warning">
+      <td><p> I use Linux </p></td>
+    </tr>
+
+    <!--<tr class="success">-->
+      <!--<td><p> I love Vim  and IntelliJ IDEA</p></td>-->
+      <!--</tr>-->
+  </table>
+
+
+  <!--Footer-->
+  <small>
+    <p>
+    Icons by Glyphicons <a href="http://www.glyphicons.com/"> www.glyphicons.com </a>. 
+    Licensed under <a href="http://creativecommons.org/licenses/by/3.0/deed.en"> CC-BY license </a>
   </p>
+  </small>
 
-  <p>
-  yasith@tuxv.net <br>
-
-  647-784-9030 <br>
-
-  Toronto, Canada <br>
-  </p>
-
-  <p>
-  github.com/yasithv <br>
-
-  linkedin.ca/yasithv <br>
-
-  @tuxv <br>
-
-  Yasith on Google Plus <br>
-
-  </p>
-
-
-  <p> I code in C++, Java and Python </p>
-
-  <p> I make Android and Webapps </p>
-
-  <p> I use Linux </p>
+  <!-- Javascript added to the end for better performance-->
+  <script src="bootstrap/js/jquery.js"> </script>
+  <script src="bootstrap/js/bootstrap.min.js"> </script>
 
 </body>
 
