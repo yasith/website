@@ -6,17 +6,25 @@ threadsafe: true
 
 handlers:
 
-# Handler for bootstrap dir
-- url: /bootstrap
-  static_dir: bootstrap
+# Handler for css dir 
+- url: /css
+  static_dir: css
 
-# Handler for dir containing custom CSS files
-- url: /styles
-  static_dir: styles
+# Handler for fonts dir 
+- url: /font
+  static_dir: font
 
 # Handler for dir containing images
 - url: /img
   static_dir: img
+
+# Handler for dir containing javascript
+- url: /js
+  static_dir: js
+
+# Handler for dir containing plugins
+- url: /plugins
+  static_dir: plugins
 
 # Web frontend
 - url: /.*
