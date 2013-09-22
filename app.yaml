@@ -25,6 +25,8 @@ handlers:
 # Handler for dir containing plugins
 - url: /plugins
   static_dir: plugins
+- url: /static
+  static_dir: static
 
 # Web frontend
 - url: /.*
