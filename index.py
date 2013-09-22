@@ -11,7 +11,7 @@ class Home(webapp2.RequestHandler):
 
     template_values = {}
 
-    template = jinja_environment.get_template('home.html')
+    template = jinja_environment.get_template('index.html')
     self.response.out.write(template.render(template_values))
 
 
