@@ -295,15 +295,15 @@
           <div class="container">
             <h2>Contact</h2>
             <div class="row-fluid">
-              <form id="contact-form" action="#">
+              <form id="contact-form" action="/sendmail" method="post">
                 <div class="span5">
-                  <input type="text" placeholder="Name" class="input-primary">        
-                  <input type="email" placeholder="Email" class="input-primary">
+                  <input type="text" name="name" placeholder="Name" class="input-primary">        
+                  <input type="email" name="email" placeholder="Email" class="input-primary">
                 </div>
                 <div class="span7">
-                  <textarea rows="4" placeholder="Message"></textarea>
+                  <textarea rows="4" name="content" placeholder="Message"></textarea>
                 </div>
-                <button type="button" class="btn btn-large btn-primary-light btn-square"><i class="icon-envelope"></i> Send Message</button>
+                <button type="submit" class="btn btn-large btn-primary-light btn-square"><i class="icon-envelope"></i> Send Message</button>
               </form>
             </div>
           </div>
